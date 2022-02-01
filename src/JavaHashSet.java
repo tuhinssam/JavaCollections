@@ -20,6 +20,10 @@ public class JavaHashSet {
         //check if hashSet contains
         System.out.println(hashSet.contains(55));
 
+        for(int elem: hashSet){
+            System.out.println("element: "+elem);
+        }
+
         //clear the hashset
         hashSet.clear();
 
